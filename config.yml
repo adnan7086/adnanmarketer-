@@ -1,0 +1,80 @@
+backend:
+  name: git-gateway
+  branch: main
+  squash_merges: true
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+site_url: "https://adnanmarketer.netlify.app"
+display_url: "https://adnanmarketer.netlify.app"
+logo_url: "/assets/logo.svg"
+locale: "en"
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+collections:
+  - name: "site"
+    label: "Website Content"
+    files:
+      - name: "settings"
+        label: "Profile & Site Settings"
+        file: "content/settings.json"
+        fields:
+          - {label: "Website Name", name: "site_name", widget: "string", default: "Adnanmarketer"}
+          - {label: "Your Name", name: "name", widget: "string", default: "Adnan"}
+          - {label: "Role / Title", name: "role", widget: "string", default: "Digital Marketing Specialist"}
+          - {label: "Headline line 1", name: "headline1", widget: "string", default: "I turn clicks"}
+          - {label: "Headline line 2", name: "headline2", widget: "string", default: "with smart marketing."}
+          - {label: "Headline line 1 (Bangla)", name: "headline1_bn", widget: "string"}
+          - {label: "Headline line 2 (Bangla)", name: "headline2_bn", widget: "string"}
+          - {label: "Short intro (English)", name: "tagline", widget: "text"}
+          - {label: "Short intro (Bangla)", name: "tagline_bn", widget: "text"}
+          - {label: "Availability text", name: "availability", widget: "string"}
+          - {label: "About section (English)", name: "about", widget: "markdown"}
+          - {label: "About section (Bangla)", name: "about_bn", widget: "markdown"}
+          - {label: "Profile photo", name: "profile_photo", widget: "image", required: false}
+          - {label: "Logo image", name: "logo", widget: "image", required: false}
+          - {label: "Stat 1", name: "stat1", widget: "string"}
+          - {label: "Stat 1 caption", name: "stat1_caption", widget: "string"}
+          - {label: "Stat 2", name: "stat2", widget: "string"}
+          - {label: "Stat 2 caption", name: "stat2_caption", widget: "string"}
+          - {label: "Stat 3", name: "stat3", widget: "string"}
+          - {label: "Stat 3 caption", name: "stat3_caption", widget: "string"}
+          - {label: "Contact paragraph (English)", name: "contact_text", widget: "text"}
+          - {label: "Contact paragraph (Bangla)", name: "contact_text_bn", widget: "text"}
+          - {label: "Contact email", name: "email", widget: "string"}
+          - {label: "LinkedIn URL", name: "linkedin", widget: "string", required: false}
+          - {label: "Facebook URL", name: "facebook", widget: "string", required: false}
+          - {label: "Instagram URL", name: "instagram", widget: "string", required: false}
+          - {label: "Primary color", name: "accent_color", widget: "color", default: "#c7f36b"}
+      - name: "services"
+        label: "Services"
+        file: "content/services.json"
+        fields:
+          - label: "Service list"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Title (English)", name: "title", widget: "string"}
+              - {label: "Title (Bangla)", name: "title_bn", widget: "string", required: false}
+              - {label: "Description (English)", name: "description", widget: "text"}
+              - {label: "Description (Bangla)", name: "description_bn", widget: "text", required: false}
+              - {label: "Icon symbol", name: "icon", widget: "string", required: false}
+      - name: "projects"
+        label: "Portfolio Projects"
+        file: "content/projects.json"
+        fields:
+          - label: "Projects"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Project title (English)", name: "title", widget: "string"}
+              - {label: "Project title (Bangla)", name: "title_bn", widget: "string", required: false}
+              - {label: "Category / services (English)", name: "category", widget: "string"}
+              - {label: "Category / services (Bangla)", name: "category_bn", widget: "string", required: false}
+              - {label: "Short description", name: "description", widget: "text"}
+              - {label: "Project image", name: "image", widget: "image", required: false}
+              - {label: "Project URL", name: "url", widget: "string", required: false}
+              - {label: "Visual theme", name: "theme", widget: "select", options: ["purple", "green"], default: "purple"}
