@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "title": "Brand Awareness Campaign",
+      "title_bn": "ব্র্যান্ড অ্যাওয়ারনেস ক্যাম্পেইন",
+      "category": "Social strategy · Creative direction",
+      "category_bn": "সোশ্যাল স্ট্র্যাটেজি · ক্রিয়েটিভ ডিরেকশন",
+      "description": "Sample project layout — replace with your own case study, process, and verified results.",
+      "description_bn": "নমুনা প্রজেক্ট লেআউট—নিজের কেস স্টাডি, কাজের ধাপ এবং যাচাইকৃত ফলাফল দিয়ে বদলে নিন।",
+      "image": "",
+      "url": "",
+      "theme": "purple"
+    },
+    {
+      "title": "Content Growth System",
+      "title_bn": "কনটেন্ট গ্রোথ সিস্টেম",
+      "category": "Content · Audience growth",
+      "category_bn": "কনটেন্ট · অডিয়েন্স গ্রোথ",
+      "description": "Sample project layout — add a real project image and a link to the published work.",
+      "description_bn": "নমুনা প্রজেক্ট লেআউট—নিজের প্রজেক্টের ছবি ও প্রকাশিত কাজের লিংক যোগ করুন।",
+      "image": "",
+      "url": "",
+      "theme": "green"
+    }
+  ]
+}

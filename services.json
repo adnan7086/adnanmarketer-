@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "title": "Social Media Marketing",
+      "title_bn": "সোশ্যাল মিডিয়া মার্কেটিং",
+      "description": "Build a recognizable brand, engage your audience, and grow your social presence with a clear content plan.",
+      "description_bn": "পরিকল্পিত কনটেন্টের মাধ্যমে ব্র্যান্ড পরিচিতি, অডিয়েন্সের সঙ্গে যোগাযোগ এবং সোশ্যাল মিডিয়ায় উপস্থিতি বাড়ান।",
+      "icon": "◈"
+    },
+    {
+      "title": "SEO & Content Strategy",
+      "title_bn": "SEO ও কনটেন্ট স্ট্র্যাটেজি",
+      "description": "Improve discoverability with helpful content and a search strategy built around your audience.",
+      "description_bn": "অডিয়েন্সের প্রয়োজন অনুযায়ী কার্যকর কনটেন্ট ও সার্চ কৌশলে অনলাইনে খুঁজে পাওয়া সহজ করুন।",
+      "icon": "⌁"
+    },
+    {
+      "title": "Paid Ads & Campaigns",
+      "title_bn": "পেইড অ্যাডস ও ক্যাম্পেইন",
+      "description": "Plan, test, and optimize ad campaigns with clear goals and performance tracking.",
+      "description_bn": "স্পষ্ট লক্ষ্য ও পারফরম্যান্স ট্র্যাকিংয়ের মাধ্যমে বিজ্ঞাপন পরিকল্পনা, পরীক্ষা ও উন্নত করুন।",
+      "icon": "◉"
+    },
+    {
+      "title": "Brand & Growth Strategy",
+      "title_bn": "ব্র্যান্ড ও গ্রোথ স্ট্র্যাটেজি",
+      "description": "Turn business goals into an actionable digital roadmap with measurable priorities.",
+      "description_bn": "ব্যবসার লক্ষ্যকে পরিমাপযোগ্য অগ্রাধিকারসহ বাস্তবায়নযোগ্য ডিজিটাল পরিকল্পনায় রূপ দিন।",
+      "icon": "✳"
+    }
+  ]
+}
